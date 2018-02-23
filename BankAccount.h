@@ -15,12 +15,7 @@ class BankAccount
     this->AccountNumber = AccNumber;
     this->CurrentBalance = CurrentBal;
   };
-  BankAccount(BankAccount& cloneAcc)
-  {
-    this->AccountHolder = cloneAcc.AccountHolder;
-    this->AccountNumber = cloneAcc.AccountNumber;
-    this->CurrentBalance = cloneAcc.CurrentBalance;
-  };
+  
   void display()
   {
     cout<<this->AccountHolder<<endl<<this->AccountNumber<<endl<<this->CurrentBalance<<endl;
